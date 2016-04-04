@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+	<title>Quiz App</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<div class="start-page">
+		<section>
+			<p class="title">american artists quiz</p>
+			<p class="author">by carly williams</p>
+		</section>
+		<section>
+			<div class="content">
+				<button class="btn-start">Let's get started</button>
+			</div>
+		</section>
+	</div>
+	<div class="question-page">
+		<section>
+			<p class="title question-page">american artists quiz</p>
+		</section>
+		<section>
+			<div class="content content-painting">
+				<img class="painting" src="images/wyeth.jpg" alt="Christina's World">
+			</div>
+		</section>
+		<section>
+			<div class="content content-question">
+				<div class="question">Which artist painted "Christina's World"?</div>
+				<div class="multiple-choice">
+					<ul class="choices">
+						<li><input type="radio">Edward Hopper</input></li>
+						<li><input type="radio">Andrew Wyeth</input></li>
+						<li><input type="radio">Andy Warhol</input></li>
+					</ul>
+				</div>
+				<button class="btn-submit" type="button">Submit</button>
+			</div>
+		</section>		
+	</div>
+	<div class="answer-page">
+		<section>
+			<p class="title">american artists quiz</p>
+		</section>
+		<section>
+			<div class="content content-group">
+				<div class="content-small-painting">
+					<img class="painting painting-small" src="images/wyeth.jpg" alt="Christina's World">
+				</div>
+				<div class="answer">
+					<div class="answer-short">That's correct!</div>
+					<div class="answer-description">Andrew Wyeth painted “Christina’s World” in 1948. The woman in the painting is Anna Christina Olsen who suffered from polio and was paralyzed from the waist down. One day Wyeth saw her crawling across the field and was inspired to do the painting.</div>
+				</div>
+				<button class="btn-next" type="button">Next</button>
+				<div class="score">Score: 1/1</div>
+			</div>
+		</section>
+	</div>
+	<div class="end-page">
+		<section>
+			<p class="title">american artists quiz</p>
+		</section>
+		<section>
+			<div class="content content-group">
+				<div>Thank you for taking the quiz!</div>
+				<div>You got <span>3</span> out of <span>5</span> right.</div>
+				<button class="btn-try-again" type="button">Try again</button>
+			</div>			
+		</section>
+	</div>
+	<script src="//code.jquery.com/jquery.min.js"></script>
+	<script src="js/app.js"></script>	
+</body>
+</html>

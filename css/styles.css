@@ -1,0 +1,179 @@
+html {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+  text-align: center;
+}
+
+.start-page,
+.question-page,
+.answer-page,
+.end-page {
+	display: none;
+}
+
+.title {
+  color: #FF8413;
+  font-family: 'Playfair Display', serif;
+  font-size: 39px;
+  margin-bottom: .25em;
+  margin-top: 90px;
+}
+
+.question-page .title {
+  margin-bottom: -4px;
+  margin-top: 37px;	
+  font-size: 30px;
+}
+
+.answer-page .title {
+  margin-bottom: -4px;
+	margin-top: 60px;	
+  font-size: 30px;
+}
+
+.author {
+	margin-left: 150px;
+  font-size: 16px;
+  color: #969696;
+  margin-top: .25em;
+}
+
+.content {
+	margin: 0 auto;
+  padding: 40px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.answer-page .content-group {
+	margin-top: 13px;
+}
+
+.end-page .content-group {
+	font-size: 20px;
+}
+
+.content-question {
+	width: 460px;
+  height: auto;
+  padding: 0;
+}
+
+.content-painting {
+	padding: 32px 0 16px 0;
+}
+
+.content-small-painting {
+	display: inline-block;
+	vertical-align: middle;
+}
+/*
+.item, .btn-submit, .btn-next {
+  border-radius: 19px;
+  font-size: 20px;
+  border: 2px solid #bfbfbf;
+  padding: 7px 17px;
+  color: white;
+  margin-top: 8px;
+}
+*/
+
+.btn-start,
+.btn-submit,
+.btn-next,
+.btn-try-again {
+	border-radius: 19px;
+	font-size: 14px;
+	border: 1px solid #737373;
+	padding: 7px 17px;
+	color: #757575;
+	margin-top: 8px;
+	background: white;
+	cursor: pointer;
+}
+
+.btn-start:hover, 
+.btn-submit:hover,
+.btn-next:hover,
+.btn-try-again:hover {
+  border: 1px solid #bfbfbf;
+  color: white;
+  background: #bfbfbf
+}
+
+.btn-start {
+  font-size: 20px;
+}
+
+.btn-next {
+	display: block;
+  text-align: center;
+  margin: 38px auto;
+}
+
+.btn-try-again {
+	margin-top: 46px;
+}
+
+.painting {
+	height: 314px;
+  border: 1px solid gray;
+  padding: 7px;
+}
+
+.painting-small {
+	width: 212px;
+  height: auto;
+}
+
+.question, .multiple-choice {
+	display: inline-flex;
+	width: 49%;
+}
+
+.question {
+	font-size: 19px;
+  line-height: 28px;
+}
+
+.multiple-choice {
+	text-align: left;
+}
+
+.choices {
+	list-style: none;
+}
+
+.choices input {
+	margin-right: 11px;
+  height: 15px;	
+}
+
+.answer {
+	width: 374px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  margin-left: 13px;
+}
+
+.answer-short {
+	font-size: 22px;
+  margin-bottom: 7px;
+}
+
+.score {
+	text-align: right;
+  margin-right: 25px;
+}
